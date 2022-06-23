@@ -19,7 +19,7 @@
     <div class="container">
         <aside class="sidebar">
             <div class="toolbar-container">
-                <img class="user-photo" src="images/avatar1.png" alt="user1">
+                <img class="user-photo" src="images/avatar1.png" alt="avatar1">
                 <div class="auxicons-toolbar-container">
                     <i class="fas fa-spinner"></i>
                     <i class="fas fa-comment-alt"></i>
@@ -40,7 +40,7 @@
             </div>
             <div class="contacts-container">
                 <div class="contact-box" active-chat>
-                    <img class="user-photo" src="images/avatar2.png" alt="user2">
+                    <img class="user-photo" src="images/avatar2.png" alt="avatar2">
                     <div class="user-info">
                         <p class="user-name">Sabrina Matos</p>
                         <p class="user-messagepreview">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="contact-box">
-                    <img class="user-photo" src="images/avatar3.png" alt="user3">
+                    <img class="user-photo" src="images/avatar3.png" alt="avatar3">
                     <div class="user-info">
                         <p class="user-name">João Augusto</p>
                         <p class="user-messagepreview">Está disponível para um freela?</p>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="contact-box">
-                    <img class="user-photo" src="images/avatar4.png" alt="user4">
+                    <img class="user-photo" src="images/avatar4.png" alt="avatar4">
                     <div class="user-info">
                         <p class="user-name">Maria Silva</p>
                         <p class="user-messagepreview">O projeto ficou perfeito, obrigada!</p>
@@ -79,7 +79,30 @@
         </aside>
 
         <main class="chat-container">
-
+            <nav class="chat-navbar">
+                <div class="contactinfo-container">
+                    <img class="user-photo" src="images/avatar2.png" alt="avatar2">
+                    <p class="user-name">Sabrina Matos</p>
+                </div>
+                <ul class="chattools-container">
+                    <li><i class="fas fa-search"></i></li>
+                    <li><i class="fas fa-paperclip"></i></li>
+                    <li><i class="fas fa-ellipsis-v"></i></li>
+                </ul>
+            </nav>
+            <div class="messages-container">
+                <div class="bg-image"></div>
+                <div class="chat-messages"></div>
+                <div>
+                    <p class="guest-message">Olá, bom dia</p>
+                    <p class="user-message">Oi, tudo bem?</p>
+                </div>
+            </div>
+            <div class="sendmessage-container">
+                <i class="far fa-grin"></i>
+                <input type="text" name="message" class="userinput" placeholder="Digite uma mensagem" id="chatmessage">
+                <i class="fas fa-microphone"></i>
+            </div>
         </main>
     </div>
 </body>
